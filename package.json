@@ -1,0 +1,22 @@
+{
+    "name": "knex-migration",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "knex": "^0.21.5",
+        "knex-paginate": "^1.2.3",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.1.0",
+        "node-mysql": "^0.4.2",
+        "nodemon": "^2.0.4"
+    }
+}
